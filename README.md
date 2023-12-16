@@ -1,23 +1,18 @@
-# What is NLP ?
-Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human language.
-> "NLP is basically math and statistics with elements of linguistics."
-> 
-> Shivali Goel
-# Text Summarization with NLP?
-The aim is to create a short and clear summary while keeping the main meaning of the original content intact. This helps quickly understand the main points without reading the entire text.
-### What is the role of NLP in text summarization?
-* Automatically shorts documents, papers, podcasts.
+# Doğal Dil İşleme (NLP) Nedir?
+Doğal Dil İşleme (NLP), insan diliyle bilgisayarların nasıl etkileşim kurabileceğini inceleyen bir bilim dalıdır. NLP'nin temel amacı, insanların günlük kullandığı dili, bilgisayar programlarının anlayabileceği ve işleyebileceği bir formata dönüştürmektir.Bu alanda birçok temel kavram ve işlem bulunmaktadır:
 
-* Enables a more in-depth analysis and understanding of the content of news.
+* **Tokenization (Belirteçleme):** Metni küçük parçalara, yani belirteçlere bölmek. Bu belirteçler genellikle kelimeler veya cümleler olabilir.
+* **Part-of-Speech Tagging (Kelime Türü Etiketleme):** Her kelimenin dil bilgisindeki rolünü belirleme, yani öznenin, nesnenin, fiilin vb. ne olduğunu etiketleme.
+* **Named Entity Recognition (Adlandırılmış Varlık Tanıma):** Metindeki önemli isimleri (örneğin, kişilerin adları, organizasyonlar, yerler) tanıma.
+* **Sentiment Analysis (Duygu Analizi):** Bir metnin içerdiği duygusal tonu belirleme, yani metnin olumlu, olumsuz veya nötr olduğunu anlama.
+* **Dependency Parsing (Bağımlılık Ayrıştırma):** Cümledeki kelimeler arasındaki bağımlılıkları belirleme, yani hangi kelimenin diğerine bağlı olduğunu anlama.
 
-* Can provide advanced analytical insights from the data.
-* Artificial intelligence algorithms make objective decisions.
-* Integrates and consolidates data in one place, allowing access to a wide range of data from a single location.
-
-There are two main approaches to NLP summarization: **extractive summarization** and **abstractive summarization**.
-* **Extractive sumarization** involves identifying the most important sentences in the original text and extracting them to create summary. This approach relies on machine learning techniques to identify the most relevant information in the text.
-* **Abstractive summarization** involves generating new sentences that capture the essence of the original text. This approach requires a deep understanding of the language and context of the original text, and often involves the use of advanced NLP techniques such as natural language generation.
-
+# Makine Çevirisi (MT) Nedir?
+Makine Çevirisi (MT), kaynak dilden hedef dile aktarımın otomatik yazılımlar aracılığıyla gerçekleştiği ve insan müdahalesinin olmadığı çeviri sürecidir. **Kural tabanlı makine çevirisi (RBMT)** ve **istatistiksel makine çevirisi (SMT)** olmak üzere farklı motorlar vardır. RBMT, dilbilgisi kurallarını kullanarak çeviri yaparken, SMT büyük veri setlerini analiz edip istatistiksel çeviri modellerini kullanır.
+Son yıllarda, nöral ağlar kullanılarak yapılan **nöral makine çevirisi (NMT)** büyük ilgi görmektedir. NMT, desenler ve yapılar aracılığıyla metinleri çevirmek için derin öğrenmeyi kullanır. Bu yaklaşım, daha akıcı çeviriler sağlayarak diğer makine çevirisi yöntemlerine göre daha iyi performans gösterir. 
+### Makine Çevirisi Kullanım Alanları?
+* **Çeviri uygulamaları** : MT, farklı dilleri konuşan kişiler arasındaki dil bariyerlerini aşmada önemli bir araçtır. İki veya daha fazla dil konuşan kişiler, MT sayesinde metin veya konuşmalarını anadillerine çevirebilirler. Popüler çeviri uygulamaları şunlardır Google Translate, DeepL, Amazon Translate, Microsoft Bing, Systrian, Crowdin, Smartling
+  
 Code example for Extractive summarization with BERT
 
 ```python
