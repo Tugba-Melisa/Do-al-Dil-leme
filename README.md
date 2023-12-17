@@ -32,4 +32,38 @@ Son yıllarda, nöral ağlar kullanılarak yapılan **nöral makine çevirisi (N
  
 * **Çok Dilli Sanal Asistanlar:** MT, çok dilli sanal asistanların geliştirilmesine olanak tanır. Kullanıcılar, farklı dillerde sorular sorabilir ve cevaplar alabilirler. Google Assistant, Amazon Alexa, Apple Siri, Samsung Bixby, IBM Watson Assistant sanal asistanlara örnektir.
 ![resim](https://github.com/Tugba-Melisa/Dogal-Dil-Isleme/assets/105967050/ad424870-83e5-44b7-a9a8-39d4183fb4e0)
- 
+
+# Gelecekte Doğal Dil İşleme
+Doğal dil işleme alanındaki gelişmeler, yapay zeka ve dil işleme teknolojilerinin hızla evrimleştiğini göstermektedir. Özellikle dil modellerinin karmaşıklığı ve performansındaki artış, NLP'nin kullanım alanlarını genişletmektedir. GPT-3 gibi büyük dil modelleri, metin oluşturma, çeviri ve soru-cevap işlemlerinde başarılar elde etmektedir. Gelecekteki NLP uygulamaları, daha gelişmiş dil modelleriyle birlikte anlamlandırma ve çeviri yeteneklerindeki artışa odaklanacaktır. Özellikle endüstrinin uzmanlaşmış dil modellerine olan ihtiyacı düşünüldüğünde, spesifik konularda uzmanlaşmış modeller büyük önem taşıyacaktır. Ayrıca, çok dilli etkileşim ve kültürlerarası dil işleme, küresel iletişim ihtiyacını karşılamak için önemli olacaktır. Bu trendler, dil modellerinin daha etkili ve hassas hale gelmesi aracılığıyla topluluklar arası anlayışı artırmak ve dil bariyerlerini aşmak için kritik bir rol oynayacaktır. Bu gelişmeler, gelecekte NLP'nin günlük yaşamımızı şekillendirici bir hale getirmesi olasıdır.
+# Zorluklar 
+* **1. Etik Sorunlar:**
+  
+   **Veri Biasesi:** Büyük dil modelleri, eğitim verilerindeki önyargıları öğrenme eğilimindedir, bu da modelin ürettiği içeriklerde toplumsal, cinsiyet ve ırk gibi çeşitli önyargıları barındırmasına neden olabilir.
+  
+   **Manipülasyon Potansiyeli:** Bu modeller, geniş bir metin yelpazesini anlama ve üretebilme yeteneğine sahiptir, bu da potansiyel olarak yanıltıcı veya manipülatif içeriklerin oluşturulmasına yol açabilir.
+  
+* **2. Güvenlik Endişeleri:**
+
+   **Kötüye Kullanım Potansiyeli:** Büyük dil modellerinin kötü amaçlı kullanımı, sahte haberlerin üretilmesi, dolandırıcılık veya siber saldırılar gibi kötü niyetli amaçlar için kullanılma riskini artırabilir.
+  
+   **Siber Güvenlik:** Bu modellerin bulut tabanlı hizmetler aracılığıyla erişilebilir olması, siber güvenlik risklerini artırabilir; yetersiz veri güvenliği önlemleri durumunda, hassas bilgilerin tehlikeye girmesi söz konusu olabilir.
+  
+* **3. Veri Gizliliği Sorunları:**
+
+   **Kişisel Bilgilerin Kullanımı:** Bu modellerin eğitim aşamasında kullanılan geniş veri setleri arasında kişisel bilgiler de bulunabilir, bu da kullanıcıların gizliliğini tehlikeye atabilir.
+  
+   **Son Kullanıcı Verileri:** Büyük dil modelleri, kullanıcılar tarafından sağlanan metin verilerini anlama ve işleme yeteneğine sahiptir; bu durum, kullanıcıların ilettiği hassas bilgilerin model tarafından nasıl işlendiği sorununu ortaya çıkarır.
+
+   Bu endişeler, dil modellerinin potansiyel etik ve güvenlik sorunlarına dikkat çekmektedir. Bu nedenle, bu teknolojilerin kullanımıyla ilgili düzenleyici çerçeveler ve etik kuralların geliştirilmesi önemlidir. Şeffaflık, hesap verebilirlik ve veri gizliliğine saygı, bu tür teknolojilerin geliştirilmesi ve kullanılmasında kritik prensiplerdir.
+
+**Kaynaklar**:
+> https://www.conveythis.com/tr/machine-translation-for-marketing/?ysclid=lq81fasy5l948450445        
+> https://eduvit.com/makale/dogal-dil-isleme-nlp-nedir      
+> https://www.lingopia.com/makine-cevirisi-nedir/
+> https://ciksiti.com/tr/chapters/17297-7-best-machine-translation-software-or-ai-translators-to-try?ysclid=lq80fl17u5509366109      
+> https://www.gizchina.com/2022/12/26/google-assistant-siri-bixby-and-alexa-which-works-best-lets-find-out/     
+> https://www.freepik.com/premium-vector/vector-set-facebook-twitter-instagram-youtube-linkedin-vimeo-vector-editorial_52610332.htm        
+> https://webmasto.com/facebook-gonderilerini-birden-fazla-dilde-paylasin      
+> https://www.campaigntr.com/duolingo-ilk-reklam-kampanyasini-yayinladi/      
+> https://www.p-ux.net/ai/dogal-dil-islemenin-nlp-gelecegi-nasil-olacak/       
+> https://bulutistan.com/blog/nlp-natural-language-processing/           
